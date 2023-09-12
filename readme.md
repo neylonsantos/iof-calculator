@@ -6,6 +6,6 @@ A calculadora já conta com as taxas para os proximos anos, até 2028 onde a tax
 
 Quaisquer alterações em taxas ou nas leis que compoe esse imposto, sinta-se a vontade para me contactar solicitando uma correção ou abra um Pull Request com a alteração, lembre-se de colocar um link com a fonte da alteração nas taxas se for o caso.
 
-Para me contactar escolha uma das formas disponiveis [aqui][http://neylonsantos.github.io]
+Para me contactar escolha uma das formas disponiveis [aqui](http://neylonsantos.github.io)
 
-Feito com &#10084;&#65039; por [Neylon Santos][http://neylonsantos.github.io]
+Feito com &#10084;&#65039; por [Neylon Santos](http://neylonsantos.github.io)
