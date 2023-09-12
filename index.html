@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Calcuradora de IOF</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" async></script>
+    <meta name="description" content="Uma simples calculadora de IOF que já prevê todas as taxas até 2028.">
+    <meta name="keywords" content="IOF, calculadora, credito, cartao, debito, taxas, taxa">
+    <meta name="author" content="Neylon Santos">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1>Calcuradora de IOF</h1>
+
+    <label for="amount">Digite o valor:</label>
+    <input type="number" id="amount" placeholder="Digite o valor">
+
+    <label for="percentage">Selecione ou digite a porcentagem:</label>
+    <select id="percentage">
+        <option value="5.38">IOF para 2023: 5.38%</option>
+        <option value="4.38">IOF para 2024: 4.38%</option>
+        <option value="3.38">IOF para 2025: 3.38%</option>
+        <option value="2.38">IOF para 2026: 2.38%</option>
+        <option value="1.38">IOF para 2027: 1.38%</option>
+        <option value="0">Em 2028, a taxa será zerada</option>
+        <option value="custom">Taxa customizada</option>
+    </select>
+
+    <div id="customPercentageBlock">
+      <p>Digite o valor separando as casas decimais por ponto sem o simbolo de porcentagem</p>
+      <input type="number" id="customPercentage" placeholder="Insira aqui">
+    </div>
+
+    <button onclick="calculate()">Calcular</button>
+    <p id="result"></p>
+
+    <h2>O calculo vale apenas para transações internacionais de crédito ou débito, demais tipos de operações é necessario inserir na taxa customizada.</h2>
+
+    <p>Feito com &#10084;&#65039;	por <a href="http://neylonsantos.github.io">Neylon Santos</a></p>
+  </body>
+</html>
